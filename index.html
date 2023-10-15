@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suan Choi - Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/"><p>Suan Choi</p></a>
+      <nav>
+        <ul class="desktop-menu">
+          <li><a href="#about">about</a></li>
+          <li><a href="#project">project</a></li>
+          <li><a href="/contact.html">contact</a></li>
+        </ul>
+        <input type="checkbox" id="hamburger-toggle" />
+        <label class="hamburger" for="hamburger-toggle">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </label>
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="mobile-footer">
+            <p>Suan Choi</p>
+            <div class="mobile-link-wrapper">
+              <a href="mailto:sayhitosuan@gmail.com">sayhitosuan@gmail.com</a>
+              <div class="mobile-links">
+                <a href="https://www.linkedin.com/in/sayhitosuan/" class="logo">
+                  <img src="./images/LI-In-Bug.png" alt="linkedin logo" />
+                </a>
+                <a href="https://github.com/suanTech" class="logo">
+                  <img src="./images/github-mark.png" alt="github logo" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>
+          AN <i>EXPLORER</i> READY TO DISCOVER THE ENDLESS POSSIBILITIES OF THE
+          <i>TECHNOLOGY</i>.
+        </h1>
+        <a href="#about" class="button-ball">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" />
+          </svg>
+        </a>
+      </section>
+      <section id="about">
+        <h2>Suan Who?</h2>
+        <p class="section-content">
+          I am a <span class="accent">handyman-like</span> developer who enjoys
+          tackling challenges and finding resourceful solutions. As a developer,
+          I hope to use technology to empower and assist individuals and
+          communities in need. I am passionate about building websites and web
+          applications that are not only fully functional, but also deliver a
+          <span class="accent">unique</span> and intuitive user experience.
+        </p>
+        <h3 class="section-subheading">Technologies I'm in love with</h3>
+        <div class="skills-grid">
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Node.js</li>
+          </ul>
+          <ul>
+            <li>Git</li>
+            <li>GitHub Bitbucket</li>
+            <li>Visual Studio VSCode</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </section>
+      <section id="project">
+        <h2>Project</h2>
+        <div class="project-wrapper" id="project-1">
+          <div class="project-image">
+            <img src="./images/project-managed-app.png" alt="project screenshot" />
+          </div>
+          <div class="project-description">
+            <h3 class="section-subheading">Project Managed</h3>
+            <p class="project-content">
+              A full stack project management app built with Next.js, Typescript
+              and Sass.
+            </p>
+            <div class="button-wrapper">
+              <a
+                href="https://github.com/suanTech/project-managed-app"
+                class="button"
+                >Source Code</a
+              >
+              <a href="https://project-managed-app.vercel.app/" class="button"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-wrapper" id="project-2">
+          <div class="project-image">
+            <img src="./images/tiny-post-app.png" alt="project screenshot" />
+          </div>
+          <div class="project-description">
+            <h3 class="section-subheading">Tiny Post</h3>
+            <p class="project-content">
+              A Full-Stack blog app built with Next.js
+            </p>
+            <div class="button-wrapper">
+              <a href="https://github.com/suanTech/tiny-post-app" class="button"
+                >Source Code</a
+              >
+              <a href="https://tiny-post-app.vercel.app/" class="button"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Got any feedback or just fancy a chat?</h2>
+        <a href="./contact.html" class="button" id="contact-btn"
+          >Get In Touch! 💌</a
+        >
+      </section>
+    </main>
+  </body>
+</html>
