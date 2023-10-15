@@ -1,4 +1,4 @@
-# Suan Choi = Portfolio Task
+# Suan Choi - Portfolio Task
 ![My portfolio site](https://suantech.github.io/)
 
 ## Project Requirements
