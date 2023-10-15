@@ -8,12 +8,12 @@
   </head>
   <body>
     <header>
-      <p>Suan Choi</p>
+      <a href="/"><p>Suan Choi</p></a>
       <nav>
         <ul class="desktop-menu">
-          <li><a href="">about</a></li>
-          <li><a href="">project</a></li>
-          <li><a href="">contact</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#project">project</a></li>
+          <li><a href="/contact.html">contact</a></li>
         </ul>
         <input type="checkbox" id="hamburger-toggle" />
         <label class="hamburger" for="hamburger-toggle">
@@ -33,11 +33,11 @@
             <div class="mobile-link-wrapper">
               <a href="mailto:sayhitosuan@gmail.com">sayhitosuan@gmail.com</a>
               <div class="mobile-links">
-                <a href="/" class="logo">
-                  <img src="/images/LI-In-Bug.png" alt="" />
+                <a href="https://www.linkedin.com/in/sayhitosuan/" class="logo">
+                  <img src="./images/LI-In-Bug.png" alt="linkedin logo" />
                 </a>
-                <a href="/" class="logo">
-                  <img src="/images/github-mark.png" alt="" />
+                <a href="https://github.com/suanTech" class="logo">
+                  <img src="./images/github-mark.png" alt="github logo" />
                 </a>
               </div>
             </div>
@@ -60,7 +60,12 @@
       <section id="about">
         <h2>Suan Who?</h2>
         <p class="section-content">
-          I am passionate about building websites and web applications that are not only fully functional, but also deliver a <span class="accent">unique</span> and intuitive user experience. I approach every projects with great attention to detail.
+          I am a <span class="accent">handyman-like</span> developer who enjoys
+          tackling challenges and finding resourceful solutions. As a developer,
+          I hope to use technology to empower and assist individuals and
+          communities in need. I am passionate about building websites and web
+          applications that are not only fully functional, but also deliver a
+          <span class="accent">unique</span> and intuitive user experience.
         </p>
         <h3 class="section-subheading">Technologies I'm in love with</h3>
         <div class="skills-grid">
@@ -82,52 +87,53 @@
       </section>
       <section id="project">
         <h2>Project</h2>
-        <div class="project-wrapper">
-          <!-- project image -->
-          <!-- <img src="/" alt=""> -->
-          <div class="project-image"></div>
+        <div class="project-wrapper" id="project-1">
+          <div class="project-image">
+            <img src="./images/project-managed-app.png" alt="project screenshot" />
+          </div>
           <div class="project-description">
-            <h3 class="section-subheading">Project heading</h3>
-            <p class="section-content">description</p>
-            <a href="">View Details</a>
+            <h3 class="section-subheading">Project Managed</h3>
+            <p class="project-content">
+              A full stack project management app built with Next.js, Typescript
+              and Sass.
+            </p>
+            <div class="button-wrapper">
+              <a
+                href="https://github.com/suanTech/project-managed-app"
+                class="button"
+                >Source Code</a
+              >
+              <a href="https://project-managed-app.vercel.app/" class="button"
+                >Live Demo</a
+              >
+            </div>
           </div>
         </div>
-        <div class="project-wrapper">
-          <!-- project image -->
-          <!-- <img src="/" alt=""> -->
-          <div class="project-image"></div>
-          <div class="project-description">
-            <h3 class="section-subheading">Project heading</h3>
-            <p class="section-content">description</p>
-            <a href="">View Details</a>
+        <div class="project-wrapper" id="project-2">
+          <div class="project-image">
+            <img src="./images/tiny-post-app.png" alt="project screenshot" />
           </div>
-        </div>
-        <div class="project-wrapper">
-          <!-- project image -->
-          <!-- <img src="/" alt=""> -->
-          <div class="project-image"></div>
           <div class="project-description">
-            <h3 class="section-subheading">Project heading</h3>
-            <p class="section-content">description</p>
-            <a href="/project.html">View Details</a>
+            <h3 class="section-subheading">Tiny Post</h3>
+            <p class="project-content">
+              A Full-Stack blog app built with Next.js
+            </p>
+            <div class="button-wrapper">
+              <a href="https://github.com/suanTech/tiny-post-app" class="button"
+                >Source Code</a
+              >
+              <a href="https://tiny-post-app.vercel.app/" class="button"
+                >Live Demo</a
+              >
+            </div>
           </div>
         </div>
       </section>
       <section id="contact">
         <h2>Got any feedback or just fancy a chat?</h2>
-        <form action="mailto:sayhitosuan@gmail.com">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" placeholder="name" />
-          <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="example@email.com"
-          />
-          <label for="message">Message</label>
-          <textarea name="message" id="message" placeholder=""></textarea>
-        </form>
+        <a href="./contact.html" class="button" id="contact-btn"
+          >Get In Touch! 💌</a
+        >
       </section>
     </main>
   </body>

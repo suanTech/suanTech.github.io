@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <p>Suan Choi</p>
+      <nav>
+        <ul class="desktop-menu">
+          <li><a href="/#about">about</a></li>
+          <li><a href="/#project">project</a></li>
+          <li><a href="/contact.html">contact</a></li>
+        </ul>
+        <input type="checkbox" id="hamburger-toggle" />
+        <label class="hamburger" for="hamburger-toggle">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </label>
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="mobile-footer">
+            <p>Suan Choi</p>
+            <div class="mobile-link-wrapper">
+              <a href="mailto:sayhitosuan@gmail.com">sayhitosuan@gmail.com</a>
+              <div class="mobile-links">
+                <a href="/" class="logo">
+                  <img src="/images/LI-In-Bug.png" alt="" />
+                </a>
+                <a href="/" class="logo">
+                  <img src="/images/github-mark.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="contact-main">
+      <form action="https://formspree.io/f/xyyqlnwn" method="POST" class="contact-form">
+        <h1>Contact Me!</h1>
+        <div class="field-wrapper">
+          <label for="name">Name</label>
+          <input class="field" type="text" name="name" id="name" placeholder="name" />
+        </div>
+        <div class="field-wrapper">
+          <label for="email">Email</label>
+          <input
+          class="field" 
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@email.com"
+          />
+        </div>
+        <div class="field-wrapper">
+          <label for="message">Message</label>
+          <textarea class="field" name="message" id="message" placeholder=""></textarea>
+        </div>
+        <button type="submit" class="button" id="send-btn">SEND 💙</button>
+      </form>
+    </main>
+  </body>
+</html>
