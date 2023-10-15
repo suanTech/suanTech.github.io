@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suan Choi - Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p>Suan Choi</p>
+      <nav>
+        <ul class="desktop-menu">
+          <li><a href="">about</a></li>
+          <li><a href="">project</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+        <input type="checkbox" id="hamburger-toggle" />
+        <label class="hamburger" for="hamburger-toggle">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </label>
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="mobile-footer">
+            <p>Suan Choi</p>
+            <div class="mobile-link-wrapper">
+              <a href="mailto:sayhitosuan@gmail.com">sayhitosuan@gmail.com</a>
+              <div class="mobile-links">
+                <a href="/" class="logo">
+                  <img src="/images/LI-In-Bug.png" alt="" />
+                </a>
+                <a href="/" class="logo">
+                  <img src="/images/github-mark.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>
+          AN <i>EXPLORER</i> READY TO DISCOVER THE ENDLESS POSSIBILITIES OF THE
+          <i>TECHNOLOGY</i>.
+        </h1>
+        <a href="#about" class="button-ball">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" />
+          </svg>
+        </a>
+      </section>
+      <section id="about">
+        <h2>Suan Who?</h2>
+        <p class="section-content">
+          I am passionate about building websites and web applications that are not only fully functional, but also deliver a <span class="accent">unique</span> and intuitive user experience. I approach every projects with great attention to detail.
+        </p>
+        <h3 class="section-subheading">Technologies I'm in love with</h3>
+        <div class="skills-grid">
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Node.js</li>
+          </ul>
+          <ul>
+            <li>Git</li>
+            <li>GitHub Bitbucket</li>
+            <li>Visual Studio VSCode</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </section>
+      <section id="project">
+        <h2>Project</h2>
+        <div class="project-wrapper">
+          <!-- project image -->
+          <!-- <img src="/" alt=""> -->
+          <div class="project-image"></div>
+          <div class="project-description">
+            <h3 class="section-subheading">Project heading</h3>
+            <p class="section-content">description</p>
+            <a href="">View Details</a>
+          </div>
+        </div>
+        <div class="project-wrapper">
+          <!-- project image -->
+          <!-- <img src="/" alt=""> -->
+          <div class="project-image"></div>
+          <div class="project-description">
+            <h3 class="section-subheading">Project heading</h3>
+            <p class="section-content">description</p>
+            <a href="">View Details</a>
+          </div>
+        </div>
+        <div class="project-wrapper">
+          <!-- project image -->
+          <!-- <img src="/" alt=""> -->
+          <div class="project-image"></div>
+          <div class="project-description">
+            <h3 class="section-subheading">Project heading</h3>
+            <p class="section-content">description</p>
+            <a href="/project.html">View Details</a>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Got any feedback or just fancy a chat?</h2>
+        <form action="mailto:sayhitosuan@gmail.com">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="name" />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@email.com"
+          />
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder=""></textarea>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
